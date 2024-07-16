@@ -1,0 +1,83 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-div {
+  background-color: #2e5c80; 
+  min-height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child-div {
+  width: 50%;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.addItems {
+  display: flex;
+  align-items: center;
+}
+
+.addItems input {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.addItems .fa-plus {
+  cursor: pointer;
+  color: green;
+}
+
+.showItems {
+  margin-top: 20px;
+}
+
+.eachItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.eachItem h3 {
+  margin: 0;
+}
+
+.eachItem .fa-trash {
+  cursor: pointer;
+  color: red;
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn.effect04 {
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.btn.effect04:hover {
+  background-color: #0056b3;
+}
+
+.btn span {
+  position: relative;
+  z-index: 1;
+}
